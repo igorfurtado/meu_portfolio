@@ -786,6 +786,7 @@ p, label {
         position: absolute;
         top: 0;
         left: 0;
+        z-index: 100;
     }
 
     .ift-portfolio-list .ift-portfolio-item-box {
@@ -806,7 +807,7 @@ p, label {
         max-width: 100%;
         height: auto;
         position: relative;
-        z-index: 1200;
+        z-index: 1700;
         /* O transform scale impede a biblioteca AOS de funcionar. */
     }
 
@@ -1192,10 +1193,6 @@ p, label {
         padding-bottom: 90px;
     }
 
-    .ift-gallery-frame-container {
-        top: 40px
-    }
-
     .ift-close-gallery {
         top: -15px;
         right: -45px;
@@ -1467,6 +1464,10 @@ p, label {
         margin-left: 10px;
     }
 
+    .ift-gallery-frame-container {
+        top: 40px
+    }
+
     /* UTILITÁRIAS */
 
     .ift-full-height { /* Elementos que precisem assumir a altura completa da view. */
@@ -1549,6 +1550,10 @@ p, label {
 
     .ift-slider-list .ift-portfolio-item-info {
         margin-top: 64px;
+    }
+
+    .ift-gallery-frame-container {
+        top: 120px
     }
 
     /* Utilitárias 1200px */

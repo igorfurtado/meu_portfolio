@@ -1208,6 +1208,13 @@ p, label {
     }
 }
 
+@media screen and (min-width: 810px) and (max-width: 820px){
+    #ift-home-presentation {
+        background-position-y: 3%;
+        background-size: 20%;
+    }
+}
+
 @media screen and (min-width: 830px){
 
     #ift-home-presentation {

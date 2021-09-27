@@ -528,7 +528,7 @@ p, label {
     .ift-home-presentation {
         background-image: url('../../LAYOUT/igor-foto-photoshop-tiny.png');
         background-repeat: no-repeat;
-        background-position-x: 52%;
+        background-position-x: 51%;
         background-position-y: 73%;
         background-size: 50%;
         position: inherit; /* A div pai precisa ter uma posição relative para que '.ift-scroll-down' receba margin. */
@@ -1192,7 +1192,7 @@ p, label {
     }
 
     .ift-gallery-frame-container {
-        top: 120px
+        top: 40px
     }
 
     .ift-close-gallery {
@@ -1219,6 +1219,10 @@ p, label {
         background-position-y: 69%;
         background-size: 40%;
     }
+
+    .ift-gallery-frame-container {
+        top: 120px
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -1230,9 +1234,9 @@ p, label {
     #ift-home-presentation {
         background-image: url('../../LAYOUT/igor-foto-photoshop-tiny.png');
         background-repeat: no-repeat;
-        background-position-x: 55%;
+        background-position-x: 50%;
         background-position-y: 70%;
-        background-size: 45%;
+        background-size: 30%;
         position: inherit; /* A div pai precisa ter uma posição relative para que '.ift-scroll-down' receba margin. */
     }
 

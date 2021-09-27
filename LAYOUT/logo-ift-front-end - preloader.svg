@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="525.6px" height="581.5px" viewBox="0 0 525.6 581.5" style="enable-background:new 0 0 525.6 581.5;" xml:space="preserve"
+	>
+<style type="text/css">
+
+	@keyframes changeColor {
+		from{
+			fill: #219ebc
+		}
+		to{
+			fill: #FB8500
+		}
+	}
+
+	@keyframes lineGrow {
+		0{
+			stroke:#219ebc
+			stroke-dasharray: 1000;
+			stroke-dashoffset: 1000;
+		}
+		70%{
+			stroke:#000000
+			stroke-dasharray: 1000
+			stroke-dashoffset: 100;
+		}
+
+		100%{
+			stroke:transparent;
+			stroke-dashoffset: 1000;
+		}
+	}
+
+	.st0{
+		stroke:#219ebc;
+		stroke-miterlimit:10;
+		stroke-dasharray: 1000;
+		stroke-offset: 1000;
+		animation: lineGrow 3s forwards ease-out;
+	}
+
+	.st1{
+		fill:#bcbcbc;
+		stroke:#000000;
+		stroke-miterlimit:10;
+	}
+
+	.st2{
+		fill:#FB8500;
+		animation: changeColor 3s forwards ease-out;
+	}
+	.st3{
+		font-family:'BebasNeue-Regular';
+		}
+
+	.st4{
+		font-size:359.742px;
+}
+</style>
+<rect x="72.3" y="13.1" class="st0" width="438.9" height="498.7"/>
+<polygon class="st1" points="514.3,415 514.2,415.1 514.2,415 "/>
+<polygon class="st1" points="514.3,415 514.2,415.1 514.2,415 "/>
+<text transform="matrix(1.2376 0 0 1 223.3598 457.9247)" class="st2 st3 st4">IF</text>
+<rect x="14.3" y="13.5" width="19.3" height="555.8"/>
+<rect x="14.7" y="550.2" width="496.6" height="19.3"/>
+</svg>

@@ -806,6 +806,7 @@ p, label {
         max-width: 100%;
         height: auto;
         position: relative;
+        z-index: 500;
         /* O transform scale impede a biblioteca AOS de funcionar. */
     }
 

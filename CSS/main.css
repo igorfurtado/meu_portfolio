@@ -1508,7 +1508,7 @@ p, label {
 
     .ift-portfolio-navigator {
 
-        top: 0vh; /* Como a div pai usa view-height (vh), não funciona usar dimensões em % aqui (que está posicionada absolutamente). */
+        top: 27vh; /* Como a div pai usa view-height (vh), não funciona usar dimensões em % aqui (que está posicionada absolutamente). */
     }
 }
 

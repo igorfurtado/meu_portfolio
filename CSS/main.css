@@ -1504,6 +1504,14 @@ p, label {
 
 }
 
+@media screen and (min-width: 1020px) and (max-width: 1050px){
+
+    .ift-portfolio-navigator {
+
+        top: 0vh; /* Como a div pai usa view-height (vh), não funciona usar dimensões em % aqui (que está posicionada absolutamente). */
+    }
+}
+
 @media screen and (min-width: 1200px){
 
     .ift-modal { 
@@ -1564,6 +1572,11 @@ p, label {
 
     .ift-gallery-frame-container {
         top: 120px
+    }
+
+    .ift-portfolio-navigator {
+
+        top: 30vh; /* Como a div pai usa view-height (vh), não funciona usar dimensões em % aqui (que está posicionada absolutamente). */
     }
 
     /* Utilitárias 1200px */

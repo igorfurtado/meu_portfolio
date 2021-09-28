@@ -1264,6 +1264,8 @@ p, label {
 
     .ift-home-presentation p {
         text-align: left;
+        font-size: 18px;
+        font-weight: 400;
     }
 
     .ift-home-presentation .ift-btn {
@@ -1616,6 +1618,9 @@ p, label {
         margin-top: 10%;
     }
 
+    #ift-home-presentation {
+        background-size: 20%;
+}
 }
 
 @media screen and (min-width: 1670px){

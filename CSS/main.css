@@ -1616,15 +1616,6 @@ p, label {
         margin-top: 10%;
     }
 
-    #ift-home-presentation {
-        background-image: url('../LAYOUT/igor-foto-photoshop-tiny.png');
-        background-repeat: no-repeat;
-        background-position-x: 85%;
-        background-position-y: 20%;
-        background-size: 700px;
-        position: inherit; /* A div pai precisa ter uma posição relative para que '.ift-scroll-down' receba margin. */
-    }
-
 }
 
 @media screen and (min-width: 1670px){

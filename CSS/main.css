@@ -931,6 +931,7 @@ p, label {
     .ift-post-section {
         width: 100%; /* cross-browser */
         display: table;
+        margin-bottom: -270px;
         padding: 45px 0;
     }
 

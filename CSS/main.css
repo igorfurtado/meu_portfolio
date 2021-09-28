@@ -944,7 +944,7 @@ p, label {
 
     .ift-post-gallery .container {
         position: relative;
-        top: -270px;
+        /* top: -270px; */
     }
 
     .ift-thumb-box {
@@ -1230,10 +1230,6 @@ p, label {
 }
 
 @media screen and (min-width: 992px){
-
-    .ift-page-wrapper, .ift-preloader {
-        overflow: visible;
-    }
 
     .ift-display-text {
         margin-top: 10%;

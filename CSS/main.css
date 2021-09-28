@@ -931,11 +931,12 @@ p, label {
     .ift-post-section {
         width: 100%; /* cross-browser */
         display: table;
+        margin-bottom: -270px;
         padding: 45px 0;
     }
 
     .ift-pre-gallery {
-        padding-bottom: 350px;
+        padding-bottom: 600px;
     }
 
     .ift-post-gallery {

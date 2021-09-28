@@ -1145,9 +1145,9 @@ p, label {
     #ift-home-presentation {
         background-image: url('../LAYOUT/igor-foto-photoshop-tiny.png');
         background-repeat: no-repeat;
-        background-position-x: 55%;
+        background-position-x: 50%;
         background-position-y: 72%;
-        background-size: 400px;
+        background-size: 35%;
         position: inherit; /* A div pai precisa ter uma posição relative para que '.ift-scroll-down' receba margin. */
     }
 
@@ -1181,12 +1181,8 @@ p, label {
     }
 
     #ift-home-presentation {
-        background-image: url('../LAYOUT/igor-foto-photoshop-tiny.png');
-        background-repeat: no-repeat;
-        background-position-x: 50%;
-        background-position-y: 70%;
-        background-size: 50%;
-        position: inherit; /* A div pai precisa ter uma posição relative para que '.ift-scroll-down' receba margin. */
+        background-size: 35%;
+
     }
 
     .ift-slider-container {
@@ -1222,7 +1218,7 @@ p, label {
     #ift-home-presentation {
         background-position-x: 51%;
         background-position-y: 69%;
-        background-size: 40%;
+        background-size: 35%;
     }
 
     .ift-gallery-frame-container {
@@ -1241,7 +1237,7 @@ p, label {
         background-repeat: no-repeat;
         background-position-x: 50%;
         background-position-y: 70%;
-        background-size: 30%;
+        background-size: 35%;
         position: inherit; /* A div pai precisa ter uma posição relative para que '.ift-scroll-down' receba margin. */
     }
 
@@ -1566,12 +1562,10 @@ p, label {
     }
 
     #ift-home-presentation {
-        background-image: url('../LAYOUT/igor-foto-photoshop-tiny.png');
-        background-repeat: no-repeat;
         background-position-x: 85%;
-        background-position-y: 20%;
-        background-size: 600px;
-        position: inherit; /* A div pai precisa ter uma posição relative para que '.ift-scroll-down' receba margin. */
+        background-position-y: 85%;
+        background-size: 25%;
+
     }
 
     .ift-slider-list .ift-portfolio-item-info {
@@ -1599,15 +1593,6 @@ p, label {
 
     .ift-display-text {
         margin-top: 10%;
-    }
-
-    #ift-home-presentation {
-        background-image: url('../LAYOUT/igor-foto-photoshop-tiny.png');
-        background-repeat: no-repeat;
-        background-position-x: 85%;
-        background-position-y: 20%;
-        background-size: 650px;
-        position: inherit; /* A div pai precisa ter uma posição relative para que '.ift-scroll-down' receba margin. */
     }
 
     .ift-slider-list .ift-portfolio-item-info {
@@ -1648,11 +1633,6 @@ p, label {
         margin-left: 200px;
         margin-right: 200px;
     }
-
-    #ift-home-presentation {
-        background-size: 800px;
-    }
-
 }
 
 /* BOTÕES */

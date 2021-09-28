@@ -1231,6 +1231,10 @@ p, label {
 
 @media screen and (min-width: 992px){
 
+    .ift-page-wrapper, .ift-preloader {
+        overflow: visible;
+    }
+
     .ift-display-text {
         margin-top: 10%;
     }

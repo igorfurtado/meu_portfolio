@@ -944,7 +944,7 @@ p, label {
 
     .ift-post-gallery .container {
         position: relative;
-        /* top: -270px; */
+        top: -270px;
     }
 
     .ift-thumb-box {

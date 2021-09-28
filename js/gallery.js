@@ -11,9 +11,9 @@ var skeletonLoading = document.querySelector('.ift-skeleton-loading');
 
 // Ajustando a dimensão do container da página DETALHES (removendo os 270 px que ficaram sobrando no final, após deslocar a imagem 270px para cima).
 
-var postGallery = document.querySelector('.ift-post-gallery');
-var postGalleryHeight = postGallery.clientHeight;   // Captura a altura atual do elemento CSS.
-postGallery.style.height = (postGalleryHeight - 270) + 'px';
+//var postGallery = document.querySelector('.ift-post-gallery');
+//var postGalleryHeight = postGallery.clientHeight;   // Captura a altura atual do elemento CSS.
+//postGallery.style.height = (postGalleryHeight - 270) + 'px';
 
 // Counter formatter
 var counterFormatter = function (q) {

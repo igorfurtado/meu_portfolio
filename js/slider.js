@@ -18,7 +18,9 @@ var navCounter = document.querySelector('.ift-navigator-counter span');
 
 // Capturando larguras individuais
 
-var containerWidth = sliderContainer.parentElement.offsetWidth;  // Vai no elemento pai e pega a sua largura. 
+if (window.innerWidth < 992) {
+    var containerWidth = sliderContainer.parentElement.offsetWidth - 30;
+}  // Vai no elemento pai e pega a sua largura. 
 // The offsetWidth property returns the viewable width of an element in pixels, including padding, border and scrollbar, but not the margin.
 
 

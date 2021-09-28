@@ -1495,6 +1495,7 @@ p, label {
     /*-------------- 404 --------------*/
 
     .ift-404 h1, .ift-404 p {
+        margin-left: 50px;
         text-align: left;
     }
 
@@ -1503,7 +1504,7 @@ p, label {
     }
 
     .ift-404 .ift-btn {
-        margin-left: 0;
+        margin-left: 50px;
         margin-top: 30px;
     }
 

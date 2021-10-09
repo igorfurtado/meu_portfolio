@@ -523,16 +523,92 @@ p, label {
     /* --------HOME--------*/
 
     .ift-display-text {
-        margin-top: 20%;
+        margin-top: 45%;
     }
 
     .ift-home-presentation {
-        background-image: url('../LAYOUT/igor-foto-photoshop-tiny.png');
-        background-repeat: no-repeat;
-        background-position-x: 51%;
-        background-position-y: 73%;
-        background-size: 50%;
-        position: inherit; /* A div pai precisa ter uma posição relative para que '.ift-scroll-down' receba margin. */
+        width: 250px;
+        margin-top:50px;
+    }
+
+    .ift-center-titles{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .ift-btn-center{
+        margin: auto;
+    }
+
+    .ift-home-about-description{
+        width: 90%;
+        margin-top:50px;
+        text-align: justify;
+    }
+
+    .ift-home-about-boxes{
+        width: 110px;
+        height: 110px;
+        border: 1px solid transparent;
+        background-color: #000;
+        border-image: linear-gradient(to top, #FB8500, #000);
+        border-image-slice: 1;
+        text-align: center;
+        justify-content: center;
+        transform: translateY(-90%);
+        float: left;
+        margin-right: 20px;
+    }
+
+    .ift-home-about-boxes-bottom{
+        width: 110px;
+        height: 110px;
+        border: 1px solid transparent;
+        background-color: #000;
+        border-image: linear-gradient(to bottom, #FB8500, #000);
+        border-image-slice: 1;
+        text-align: center;
+        justify-content: center;
+        transform: translateY(-90%);
+        float: left;
+        margin-right: 20px;
+    }
+
+    .ift-boxes-margin{
+        margin-top: 30%;
+    }
+
+    .ift-home-about-justify{
+        margin-top: 5px;
+    }
+
+    .ift-home-about-boxes img, .ift-home-about-boxes-bottom img{
+        width: 60px;
+        text-align: center;
+    }
+
+    .ift-home-services-boxes, .ift-home-services-boxes-top{
+        width: 210px;
+        height: 280px;
+        border: 1px solid transparent;
+        background-color: #000;
+        border-image: linear-gradient(to bottom, #FB8500, #000);
+        border-image-slice: 1;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .ift-home-services-boxes-top{
+        width: 210px;
+        height: 280px;
+        border: 1px solid transparent;
+        background-color: #000;
+        border-image: linear-gradient(to top, #FB8500, #000);
+        border-image-slice: 1;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
     }
 
     .ift-home-presentation h1 {
@@ -554,7 +630,7 @@ p, label {
         height: 150px;
         border-radius: 35px 35px 0 0;
         background-color: #FB8500;
-        display: block;
+        display: none;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -597,6 +673,11 @@ p, label {
         background-color: #000;
         animation: lineDown 1.2s ease-out 1s infinite;
         transform-origin: top center;
+    }
+
+    .ift-footer-credits{
+        position: absolute;
+        bottom: 0;
     }
 
     /* --------HOME - PORTFÓLIO--------*/
@@ -693,7 +774,6 @@ p, label {
 
     ion-icon {
         font-size: 32px;
-
     }
 
     .ift-slider-container {
@@ -863,6 +943,14 @@ p, label {
 
     .ift-about-offset-top { 
         margin-top: 150px;
+    }
+
+    .ift-about-center{
+        text-align: center;
+    }
+
+    .ift-margin-auto{
+        margin: auto;
     }
 
     .ift-title-about, .ift-info-about, .ift-habilites-about {
@@ -1081,9 +1169,10 @@ p, label {
     }
 
     .ift-box-img {
-        width: 90%;
+        width: 30%;
         display: table;
         margin: 0 auto;
+        margin-top: 5%;
     }
 
     .ift-margin-left-20 {
@@ -1104,7 +1193,11 @@ p, label {
     /* Utilitárias 320px */
 
     .ift-title-x-large {
-        font-size: 70px;
+        font-size: 35px;
+    }
+
+    .ift-title-large {
+        font-size: 40px;
     }
 
     .ift-title-h2 {
@@ -1125,8 +1218,69 @@ p, label {
         position: relative;
     }
 
+    .ift-smaller-height {
+        height: 165vh;  
+        position: relative;
+    }
+    
+    .ift-medium-height{
+        height: 175vh;  
+        position: relative;
+    }
+
     .ift-text-center-mob {
         text-align: center;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 430px){
+
+    .ift-first-section {
+        height: 130vh !important; 
+    }
+
+    .ift-smaller-height {
+        height: auto;
+    }
+
+    .ift-medium-height{
+        height: 185vh;
+    }
+
+    .ift-border-top-left::before {
+        width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+        height: 130vh;  
+    }
+    
+    .ift-border-top-left::after {
+        width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+        height: 30px;  
+    }
+
+    .ift-border-bottom-right::before {
+        width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+        height: 130vh;  
+    }
+    
+    .ift-border-bottom-right::after {
+        width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+        height: 30px;  
+    }
+
+    .ift-menu-mob{
+        height: 135vh;
+    }
+
+    .ift-overlay, .ift-menu-overlay{
+        height: 135vh;
+    }
+
+    .ift-page-wrapper, .ift-preloader{
+        height: 135vh;
+    }
+
+    .ift-boxes-margin {
+        margin-top: 30%;
     }
 }
 
@@ -1136,10 +1290,368 @@ p, label {
     }
 }
 
+/*iPhone 5/SE*/
+@media only screen 
+    and (device-width : 320px) 
+    and (device-height : 568px) {
+    
+        .ift-first-section {
+            height: 150vh !important; 
+        }
+
+        .ift-smaller-height{
+            height: 295vh;
+        }
+
+        .ift-medium-height{
+            height: 250vh;
+        }
+
+        .ift-border-top-left::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 150vh;  
+        }
+        
+        .ift-border-top-left::after {
+            width: 150vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-border-bottom-right::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 150vh;  
+        }
+        
+        .ift-border-bottom-right::after {
+            width: 150vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-menu-mob{
+            height: 155vh;
+        }
+
+        .ift-overlay, .ift-menu-overlay{
+            height: 155vh;
+        }
+
+        .ift-page-wrapper, .ift-preloader{
+            height: 155vh;
+        }
+
+        .ift-boxes-margin {
+            margin-top: 30%;
+        }
+}
+
+/* 1792x828px at 326ppi iPhone XR e iPhone Xs Max*/
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) {
+    
+        .ift-first-section {
+            height: 115vh !important; 
+        }
+
+        .ift-smaller-height {
+            height: 280vh;
+        }
+
+        .ift-medium-height{
+            height: 160vh;
+        }
+
+        .ift-border-top-left::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-top-left::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-border-bottom-right::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-bottom-right::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-menu-mob{
+            height: 135vh;
+        }
+
+        .ift-overlay, .ift-menu-overlay{
+            height: 135vh;
+        }
+
+        .ift-page-wrapper, .ift-preloader{
+            height: 135vh;
+        }
+}
+
+/* 2436x1125px at 458ppi iPhone XS*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        
+        .ift-first-section {
+            height: 130vh !important;
+        }
+
+        .ift-smaller-height{
+            height: 205vh;
+        }
+
+        .ift-border-top-left::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-top-left::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-border-bottom-right::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-bottom-right::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-menu-mob{
+            height: 135vh;
+        }
+
+        .ift-overlay, .ift-menu-overlay{
+            height: 135vh;
+        }
+
+        .ift-page-wrapper, .ift-preloader{
+            height: 135vh;
+        }
+}
+
+/* 2688x1242px at 458ppi iPhone XS Max*/
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        
+        .ift-first-section {
+            height: 115vh !important;
+        }
+
+        .ift-border-top-left::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-top-left::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-border-bottom-right::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-bottom-right::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-menu-mob{
+            height: 135vh;
+        }
+
+        .ift-overlay, .ift-menu-overlay{
+            height: 135vh;
+        }
+
+        .ift-page-wrapper, .ift-preloader{
+            height: 135vh;
+        }
+    }
+
+/*iPhone X*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+        .ift-first-section {
+            height: 130vh !important;
+        }
+
+        .ift-smaller-height{
+            height: 205vh;
+        }
+
+        .ift-medium-height{
+            height: 175vh;
+        }
+
+        .ift-border-top-left::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-top-left::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-border-bottom-right::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-bottom-right::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-menu-mob{
+            height: 135vh;
+        }
+
+        .ift-overlay, .ift-menu-overlay{
+            height: 135vh;
+        }
+
+        .ift-page-wrapper, .ift-preloader{
+            height: 135vh;
+        }
+}
+/*iPhone 8*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+
+        .ift-first-section {
+            height: 130vh !important;
+        }
+
+        .ift-smaller-height{
+            height: 250vh;
+        }
+
+        .ift-medium-height{
+            height: 210vh;
+        }
+
+        .ift-border-top-left::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-top-left::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-border-bottom-right::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-bottom-right::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-menu-mob{
+            height: 135vh;
+        }
+
+        .ift-overlay, .ift-menu-overlay{
+            height: 135vh;
+        }
+
+        .ift-page-wrapper, .ift-preloader{
+            height: 135vh;
+        }
+}
+
+/*iphone 8 Plus*/
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+        .ift-first-section {
+            height: 130vh !important;
+        }
+
+        .ift-smaller-height{
+            height: 225vh;
+        }
+
+        .ift-medium-height{
+            height: 195vh;
+        }
+
+        .ift-border-top-left::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-top-left::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-border-bottom-right::before {
+            width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 130vh;  
+        }
+        
+        .ift-border-bottom-right::after {
+            width: 130vw;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
+            height: 30px;  
+        }
+
+        .ift-menu-mob{
+            height: 135vh;
+        }
+
+        .ift-overlay, .ift-menu-overlay{
+            height: 135vh;
+        }
+
+        .ift-page-wrapper, .ift-preloader{
+            height: 135vh;
+        }
+    }
+
+@media screen and (min-width: 576px){
+
+    .ift-medium-height{
+        height: 140vh;
+    }
+}
+
 @media screen and (min-width: 576px){  /* Dimensões relacionadas às especificações do Bootstrap. */
 
+    .ift-smaller-height {
+        height: 155vh;  
+        position: relative;
+    }
+
     .ift-display-text {
-        margin-top: 10%;
+        margin-top: 30%;
     }
 
     #ift-home-presentation {
@@ -1149,6 +1661,10 @@ p, label {
         background-position-y: 72%;
         background-size: 35%;
         position: inherit; /* A div pai precisa ter uma posição relative para que '.ift-scroll-down' receba margin. */
+    }
+
+    .ift-boxes-margin{
+        margin-top: 20%;
     }
 
     .ift-hero-inner-content {
@@ -1166,23 +1682,46 @@ p, label {
     }
 
     .ift-scroll-down {
+        display: block;
         height: 135px
     }
 
-    .ift-box-img {
-        width: 60%;
+    .ift-title-x-large {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 700px){  /* Dimensões relacionadas às especificações do Bootstrap. */
+
+    .ift-smaller-height {
+        height: 145vh;  
+        position: relative;
     }
 }
 
 @media screen and (min-width: 768px){
 
+    .ift-smaller-height {
+        height: 115vh;  
+        position: relative;
+    }
+
+    .ift-boxes-margin{
+        margin-top: 14%;
+    }
+
     .ift-display-text {
-        margin-top: 10%;
+        margin-top: 25%;
     }
 
     #ift-home-presentation {
         background-size: 35%;
 
+    }
+
+    .ift-horizontal-align{
+        float: left;
+        margin-top: 5px;
     }
 
     .ift-slider-container {
@@ -1204,6 +1743,7 @@ p, label {
     .ift-text-center-mob {
         text-align: left;
     }
+
 }
 
 @media screen and (min-width: 810px) and (max-width: 829px){
@@ -1211,6 +1751,54 @@ p, label {
         background-position-y: 3%;
         background-size: 20%;
     }
+}
+
+@media screen and (min-width: 829px) {
+
+    .ift-medium-height{
+        height: 87.5vh;  
+        position: relative;
+    }
+
+    .ift-home-services-boxes, .ift-home-services-boxes-top{
+        width: 210px;
+        height: 280px;
+        border: 1px solid transparent;
+        background-color: #000;
+        border-image: linear-gradient(to bottom, #FB8500, #000);
+        border-image-slice: 1;
+        text-align: center;
+        justify-content: center;
+        float: left;
+        padding: 10px;
+}
+
+    .ift-home-services-boxes-top{
+        width: 210px;
+        height: 280px;
+        border: 1px solid transparent;
+        background-color: #000;
+        border-image: linear-gradient(to top, #FB8500, #000);
+        border-image-slice: 1;
+        text-align: center;
+        justify-content: center;
+        float: left;
+        padding: 10px;
+    }
+
+    .ift-side-by-side{
+        float: left;
+    }
+
+    .ift-margin-middle-card{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .ift-title-large {
+        font-size: 64px;
+    }
+
 }
 
 @media screen and (min-width: 830px){
@@ -1224,12 +1812,21 @@ p, label {
     .ift-gallery-frame-container {
         top: 120px
     }
+
+    .ift-title-x-large {
+        font-size: 50px;
+    }
 }
 
 @media screen and (min-width: 992px){
 
+    .ift-smaller-height {
+        height: 90vh;  
+        position: relative;
+    }
+    
     .ift-display-text {
-        margin-top: 10%;
+        margin-top: 25%;
     }
 
     #ift-home-presentation {
@@ -1246,6 +1843,22 @@ p, label {
         display: inline-block;
     }
 
+    .ift-about-center{
+        text-align: left;
+    }
+
+    .ift-margin-auto{
+        margin: left;
+    }
+
+    .ift-float-about{
+        float: left;
+    }
+
+    .ift-boxes-margin{
+        margin-top: 12%;
+    }
+
     .ift-portfolio-navigator {
         width: 145px;
         height: 400px;
@@ -1255,6 +1868,12 @@ p, label {
 
     .ift-items-next-prev {
         justify-content: center;
+    }
+
+    .ift-home-presentation{
+        width: 220px;
+        margin-left: 50px;
+        margin-top: 190px;
     }
 
     .ift-home-presentation h1 {
@@ -1320,6 +1939,10 @@ p, label {
 
     .ift-menu a:hover:before {
         width: 100%;
+    }
+
+    .ift-home-about-description{
+        width: 60%;
     }
 
     .ift-slider-container {
@@ -1456,22 +2079,17 @@ p, label {
         margin-left: -4px;
     }
 
+    .ift-about-title{
+        width: 100%;
+        text-align: center;
+    }
+
     .ift-info-about {
         width: 55%;
     }
 
     .ift-habilites-about {
         width: 45%;
-    }
-
-    .ift-skills-block {
-        margin-left: 40px;
-    }
-
-    .ift-box-img {
-        width: 100%;
-        margin-top: 27px;
-        margin-left: 10px;
     }
 
     .ift-gallery-frame-container {
@@ -1485,7 +2103,7 @@ p, label {
     }
 
     .ift-title-x-large {
-        font-size: 90px;
+        font-size: 55px;
     }
 
     .ift-margin-left-30 {
@@ -1510,6 +2128,18 @@ p, label {
 
 }
 
+@media screen and (min-width: 991px) and (max-width: 1023px){
+    .ift-home-presentation{
+        width: 220px;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+
+    .ift-text-about{
+        font-size: 17px !important;
+    }
+}
+
 @media screen and (min-width: 1020px) and (max-width: 1050px){
 
     .ift-portfolio-navigator {
@@ -1518,7 +2148,38 @@ p, label {
     }
 }
 
+@media screen and (min-width: 1070px){
+
+    .ift-smaller-height {
+        height: 85vh;  
+        position: relative;
+    }
+}
+
+/*iPad Pro*/
+@media only screen 
+    and (device-width : 1024px) 
+    and (device-height : 1366px) {
+
+        .ift-display-text{
+            margin-top: 40%;
+        }
+
+        .ift-smaller-height {
+            height: 70vh;
+        }
+
+        .ift-medium-height{
+            height: 65vh;
+        }
+}
+
 @media screen and (min-width: 1200px){
+
+    .ift-smaller-height {
+        height: 80vh;  
+        position: relative;
+    }
 
     .ift-modal { 
         width: 800px;
@@ -1531,7 +2192,13 @@ p, label {
 
 
     .ift-display-text {
-        margin-top: 10%;
+        margin-top: 25%;
+    }
+
+    .ift-home-presentation{
+        width: 250px;
+        margin-left: 120px;
+        margin-top: 115px;
     }
 
     .ift-slider-list .ift-portfolio-item-thumb {
@@ -1589,12 +2256,16 @@ p, label {
         font-size: 64px;
         line-height: 65px;
     }
+
+    .ift-title-x-large {
+        font-size: 60px;
+    }
 }
 
 @media screen and (min-width: 1364px){  /* Contemplar resoluções de alguns notebooks com telas maiores que 15". */
 
     .ift-display-text {
-        margin-top: 10%;
+        margin-top: 16%;
     }
 
     .ift-slider-list .ift-portfolio-item-info {
@@ -1602,32 +2273,52 @@ p, label {
     }
 
     .ift-title-x-large {
-        font-size: 120px;
-    }
-
-    .ift-box-img {
-        margin-top: 35px;
+        font-size: 70px;
     }
     
 }
 
-
 @media screen and (min-width: 1500px){
+
+    .ift-display-text {
+        margin-top: 12%;
+    }
+
+    #ift-home-presentation {
+        background-size: 20%;
+    }
+
+    .ift-title-x-large {
+        font-size: 80px;
+    }
+
+    .ift-home-presentation{
+        width: 300px;
+    }
+
+    .ift-boxes-margin{
+        margin-top:9%
+    }
+
+    .ift-text-about {
+        font-size: 18px;
+}
+}
+
+
+@media screen and (min-width: 1670px){
 
     .ift-display-text {
         margin-top: 10%;
     }
 
-    #ift-home-presentation {
-        background-size: 20%;
-}
-}
-
-@media screen and (min-width: 1670px){
-
     .ift-margin-center-big {
         margin-left: 200px;
         margin-right: 200px;
+    }
+
+    .ift-title-x-large {
+        font-size: 90px;
     }
 }
 
@@ -1725,9 +2416,21 @@ p, label {
     font-weight: 800;
 }
 
+.ift-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
 .ift-footer {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+}
+
+.ift-footer-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 
@@ -1735,13 +2438,13 @@ p, label {
     font-size: 48px;
 }
 
-.ift-title-large {
-    font-size: 64px;
-}
-
 .ift-title-small {
     font-size: 14px;
     text-align: center;
+}
+
+.ift-text-about {
+    font-size: 18px;
 }
 
 .ift-text-orange {
@@ -1754,6 +2457,10 @@ p, label {
 
 .ift-text-light {
     color: #bcbcbc;
+}
+
+.ift-text-white {
+    color: #fff;
 }
 
 .ift-text-black {
@@ -1778,6 +2485,14 @@ p, label {
 
 .ift-background-black {
     background-color: #000;
+}
+
+.ift-margin-top-5 {
+    margin-top: 5px;
+}
+
+.ift-margin-top-10 {
+    margin-top: 10px;
 }
 
 .ift-margin-15 {
@@ -1864,6 +2579,12 @@ p, label {
     height: calc(100vh - 30px);  /* Queremos retirar 30px do height da primeira section. */
 }
 
+.ift-section-middle {
+    position: absolute;
+    transform: translateY(25%);
+    margin-left: 0px;
+}
+
 .ift-no-padding {
     padding: 0 !important;
 }
@@ -1907,6 +2628,10 @@ p, label {
 }
 /* CLASSES COMPORTAMENTO */
 
+.ift-smaller-height{
+    height: auto;
+}
+
 .ift-slide-top-in {
     animation: slideTopIn 0.7s forwards ease-in;
 }
@@ -1944,6 +2669,10 @@ p, label {
 .ift-no-radius-right {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+.ift-slow{
+    transition: all 0.1s ease-out;
 }
 
 .red {

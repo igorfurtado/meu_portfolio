@@ -964,7 +964,7 @@ p, label {
     /* --------DETALHES--------*/
 
     .ift-hero {
-        background-image: url('../pages/portfolio/img/hero.png');
+        background-image: url('../portfolio/img/hero.png');
         background-repeat: no-repeat;
         background-size: cover;  /* contain -> preenche todo o conteúdo da div pai. Cover -> cobre poda a área da box. */
         background-position: center center;  /* A imagem fica sempre centralizada quando diminui-se as proporções da página. */
@@ -1048,7 +1048,7 @@ p, label {
         height: 100%;
         z-index: 700;
         background-color: rgba(251, 133, 0, 0.65);
-        background-image: url('../pages/portfolio/img/icon-see-more.svg');
+        background-image: url('../portfolio/img/icon-see-more.svg');
         background-repeat: no-repeat;
         background-position: center;
         display: none;
@@ -1099,7 +1099,7 @@ p, label {
         background-color: #dedede;
         margin: 10% 0;
         border-radius: 8px;
-        background-image: url('../pages/portfolio/img/skeleton-loading-blur.svg');
+        background-image: url('../portfolio/img/skeleton-loading-blur.svg');
         background-repeat: no-repeat;
         background-position: -100% -150px;
         animation: skeletonBlur 2s infinite ease-out;

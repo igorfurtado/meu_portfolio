@@ -222,8 +222,8 @@ p, label {
     }
 
     .ift-preloader img {
-        width: 250px;
-        height: 250px;
+        width: 100px;
+        height: 100px;
     }
 
     .ift-overlay, .ift-menu-overlay {
@@ -1692,6 +1692,11 @@ p, label {
 }
 
 @media screen and (min-width: 700px){  /* Dimensões relacionadas às especificações do Bootstrap. */
+
+    .ift-preloader img {
+        width: 250px;
+        height: 250px;
+    }
 
     .ift-smaller-height {
         height: 145vh;  

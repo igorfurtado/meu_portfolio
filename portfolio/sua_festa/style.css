@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 320px){
+
+    .page-wrapper{
+    width: 100%;
+    height: 100vh;  
+    display: table;
+    background-color: #03045E;
+    overflow: hidden;
+    }
+
+    .full-height{
+    height: auto; 
+    position: relative;
+    }   
+
+    .titulo{
+        position: relative;
+        padding: 50px;
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .container{
+        position: relative;
+        background-color: #FFBA08;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        padding: 50px 10px 50px 10px;
+        font-family: 'Poppins', sans-serif;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .figura{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    display: block; /* Se comporte como um bloco. */
+    margin-top: 20px;
+    }
+
+    .titulo span{
+    color: #FFBA08;
+    }
+
+    .logo{
+    height: 200px;
+    }
+
+    .center-logo{
+    text-align: center;
+        }
+
+    input{
+    display: block; /* Garantir que não haverá nada ao seu lado. */
+    width: 500px;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box; /* 100% de largura inclui padding, bordas e margem.*/
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}   
+
+    .btn{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 90px;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 27px;
+    color: #FFFFFF;
+    background-color: #03045E;
+    border: none;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    }
+
+    .quantidades{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: white;
+    text-shadow: #03045E;
+    }
+
+    .quantidades p{
+        margin-bottom: 5px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .credits{
+    position: relative;
+    bottom: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .titulo{
+        font-size: 1.5rem;
+    }
+    .container{
+        padding: 70px 30px 70px 30px;
+        margin: 20px 120px 70px 120px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .titulo{
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (min-width: 830px){
+    
+}
+
+@media screen and (min-width: 992px){
+
+    .titulo{
+        position: absolute;
+        width:55%;
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .container{
+        position: absolute;
+        right: 0;
+        max-width: 400px;
+        height: 100vh;
+        margin-left: auto;
+        padding: 70px 30px 30px 30px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .quantidades p{
+        font-size: initial;
+        margin-bottom: 5px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
+    /*-----------------------------------------*/
+    .btn{
+        width: 200px;
+        height: 45px;
+        font-size: initial;
+    }
+
+    input{
+        width: 300px;
+        height: 45px;
+        font-size: initial;
+    }
+
+}
+
+@media screen and (min-width: 1050px){
+
+    .titulo{
+        width: 60%;
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .titulo{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1364px){ 
+
+}
+
+@media screen and (min-width: 1500px){
+
+}
+    
+@media screen and (min-width: 1670px){
+
+    .titulo{
+        width: 65% ;
+    }
+}

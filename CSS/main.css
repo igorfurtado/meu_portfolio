@@ -523,7 +523,7 @@ p, label {
     /* --------HOME--------*/
 
     .ift-display-text {
-        margin-top: 45%;
+        margin-top: 15vh;
     }
 
     .ift-home-presentation {
@@ -1619,10 +1619,6 @@ p, label {
         position: relative;
     }
 
-    .ift-display-text {
-        margin-top: 30%;
-    }
-
     #ift-home-presentation {
         background-image: url('../LAYOUT/igor-foto-photoshop-tiny.png');
         background-repeat: no-repeat;
@@ -1682,10 +1678,6 @@ p, label {
 
     .ift-boxes-margin{
         margin-top: 14%;
-    }
-
-    .ift-display-text {
-        margin-top: 25%;
     }
 
     #ift-home-presentation {
@@ -1792,10 +1784,6 @@ p, label {
     .ift-smaller-height {
         height: 90vh;  
         position: relative;
-    }
-    
-    .ift-display-text {
-        margin-top: 25%;
     }
 
     #ift-home-presentation {
@@ -2156,10 +2144,6 @@ p, label {
     }
 
 
-    .ift-display-text {
-        margin-top: 25%;
-    }
-
     .ift-home-presentation{
         width: 250px;
         margin-left: 120px;
@@ -2229,10 +2213,6 @@ p, label {
 
 @media screen and (min-width: 1364px){  /* Contemplar resoluções de alguns notebooks com telas maiores que 15". */
 
-    .ift-display-text {
-        margin-top: 16%;
-    }
-
     .ift-slider-list .ift-portfolio-item-info {
         padding-right: 0;
     }
@@ -2244,10 +2224,6 @@ p, label {
 }
 
 @media screen and (min-width: 1500px){
-
-    .ift-display-text {
-        margin-top: 12%;
-    }
 
     #ift-home-presentation {
         background-size: 20%;
@@ -2272,10 +2248,6 @@ p, label {
 
 
 @media screen and (min-width: 1670px){
-
-    .ift-display-text {
-        margin-top: 10%;
-    }
 
     .ift-margin-center-big {
         margin-left: 200px;

@@ -1224,7 +1224,7 @@ p, label {
     }
     
     .ift-medium-height{
-        height: 175vh;  
+        height: auto;  
         position: relative;
     }
 
@@ -1241,10 +1241,6 @@ p, label {
 
     .ift-smaller-height {
         height: auto;
-    }
-
-    .ift-medium-height{
-        height: 185vh;
     }
 
     .ift-border-top-left::before {
@@ -1303,10 +1299,6 @@ p, label {
             height: 295vh;
         }
 
-        .ift-medium-height{
-            height: 250vh;
-        }
-
         .ift-border-top-left::before {
             width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
             height: 150vh;  
@@ -1355,10 +1347,6 @@ p, label {
 
         .ift-smaller-height {
             height: 280vh;
-        }
-
-        .ift-medium-height{
-            height: 180vh;
         }
 
         .ift-border-top-left::before {
@@ -1498,10 +1486,6 @@ p, label {
             height: 205vh;
         }
 
-        .ift-medium-height{
-            height: 175vh;
-        }
-
         .ift-border-top-left::before {
             width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
             height: 130vh;  
@@ -1546,10 +1530,6 @@ p, label {
 
         .ift-smaller-height{
             height: 250vh;
-        }
-
-        .ift-medium-height{
-            height: 210vh;
         }
 
         .ift-border-top-left::before {
@@ -1599,10 +1579,6 @@ p, label {
             height: 225vh;
         }
 
-        .ift-medium-height{
-            height: 195vh;
-        }
-
         .ift-border-top-left::before {
             width: 30px;    /* Em porcentagem ocupa 100% da div pai. vh pega 100% da window. */
             height: 130vh;  
@@ -1635,13 +1611,6 @@ p, label {
             height: 135vh;
         }
     }
-
-@media screen and (min-width: 576px){
-
-    .ift-medium-height{
-        height: 140vh;
-    }
-}
 
 @media screen and (min-width: 576px){  /* Dimensões relacionadas às especificações do Bootstrap. */
 
@@ -1759,11 +1728,6 @@ p, label {
 }
 
 @media screen and (min-width: 829px) {
-
-    .ift-medium-height{
-        height: 87.5vh;  
-        position: relative;
-    }
 
     .ift-home-services-boxes, .ift-home-services-boxes-top{
         width: 210px;
@@ -2173,10 +2137,6 @@ p, label {
         .ift-smaller-height {
             height: 70vh;
         }
-
-        .ift-medium-height{
-            height: 65vh;
-        }
 }
 
 @media screen and (min-width: 1200px){
@@ -2444,7 +2404,7 @@ p, label {
 }
 
 .ift-title-small {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
 }
 

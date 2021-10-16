@@ -16,7 +16,7 @@ Esta página contem os arquivos de código e assets relacionados à criação do
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![mockup_igor_portfolio](https://user-images.githubusercontent.com/70289587/137596357-18d31120-06c8-4225-a0c7-177ca3f83fd5.png)
 
   
 ## Authors

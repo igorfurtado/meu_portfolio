@@ -5,6 +5,7 @@
 
 @media screen and (min-width: 250px){
 .container{
+    height: 100vh;
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 50px;

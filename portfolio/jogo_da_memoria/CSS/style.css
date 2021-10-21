@@ -29,6 +29,7 @@ body{
     height: 40px;
     position: relative;
     transform-style: preserve-3d; /*Informando que as cartas são elementos 3d para que o backface-visibility funcione.*/
+    -webkit-transform-style: preserve-3d;
     transition: transform .5s; /*Anima o transform y quando flipar a carta.*/
 }
 
@@ -46,10 +47,12 @@ body{
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
     backface-visibility: hidden; /* Todas as faces que tiverem invertidas (transform y 180deg) não serão mostradas para o usuário. Essa propriedade não possui nenhum efeito em transformações 2D.*/
+    -webkit-backface-visibility: hidden;
 }
 
 .flip{
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 .card-front{

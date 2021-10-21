@@ -9,10 +9,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - calc(100vh - 100%)); /*Com o body tendo 100vh, as divs internas poderão se alinhar verticalmente no centro da página.*/
+    height: 100vh; /*Com o body tendo 100vh, as divs internas poderão se alinhar verticalmente no centro da página.*/
     max-height: -webkit-fill-available;
-    min-height: -webkit-fill-available;
     min-height: 100vh;
+    min-height: -webkit-fill-available;
     background-color: #c7cdd3;
 }
 

@@ -10,6 +10,9 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh; /*Com o body tendo 100vh, as divs internas poderão se alinhar verticalmente no centro da página.*/
+    max-height: -webkit-fill-available;
+    min-height: -webkit-fill-available;
+    min-height: 100vh;
     background-color: #c7cdd3;
 }
 

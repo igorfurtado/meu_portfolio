@@ -3,10 +3,17 @@
     padding: 0;
 }
 
+body{
+    height: 100vh;
+    max-height: -webkit-fill-available;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
 @media screen and (min-width: 250px){
 .container{
-    height: 100vh;
-    min-height: 100vh;
+    height: 100%;
+    min-height: 100%;
     display: grid;
     grid-template-rows: auto 50px;
     grid-template-columns: auto;

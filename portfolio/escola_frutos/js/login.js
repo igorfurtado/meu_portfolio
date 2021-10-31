@@ -37,8 +37,14 @@ btnEntrar.addEventListener('click', () => {
                 }
                 else if (radioProfessor.checked) {
                     if (email === "eliza@escolafrutos.com") {
+
+                        if (window.open('./pages/teacherArea.html') == null || typeof (window.open('./pages/teacherArea.html')) == 'undefined') {
+                            alert("Desative o seu bloqueador de pop-ups!");
+                        }
+                        else {
+                            window.open('./pages/teacherArea.html');
+                        }
                         alert('Seja bem-vindo, professor(a)!')
-                        window.open('./pages/teacherArea.html');
                     }
                     else {
                         alert('Você não tem autorização para acessar a área do professor.');

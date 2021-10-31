@@ -4,7 +4,7 @@ btnOut = document.getElementById('btnOut');
 btnOut.addEventListener('click', () => {
 
     firebase.auth().signOut().then(() => {
-        window.open('../../index.html');
+        window.open('../../');
         window.close();
         console.log('Usuário deslogado.')
     }).catch(error => {

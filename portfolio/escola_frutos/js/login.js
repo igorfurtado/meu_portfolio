@@ -33,12 +33,12 @@ btnEntrar.addEventListener('click', () => {
 
                 if (radioAluno.checked) {
                     alert('Seja bem-vindo, aluno(a)!');
-                    window.open('./pages/');
+                    window.open('./pages/studentArea.html');
                 }
                 else if (radioProfessor.checked) {
                     if (email === "eliza@escolafrutos.com") {
                         alert('Seja bem-vindo, professor(a)!')
-                        window.open('./pages/');
+                        window.open('./pages/teacherArea.html');
                     }
                     else {
                         alert('Você não tem autorização para acessar a área do professor.');

@@ -1,5 +1,5 @@
 <p align="center">
-  <img style="width: 300px;" src="https://user-images.githubusercontent.com/70289587/139701362-556d03d9-6dc0-4dcb-9daa-d0fb6b43c52b.png" alt="Logo Igor Targino"/>
+  <img style="width: 200px;" src="https://user-images.githubusercontent.com/70289587/139701362-556d03d9-6dc0-4dcb-9daa-d0fb6b43c52b.png" alt="Logo Igor Targino"/>
 </p>
 
 

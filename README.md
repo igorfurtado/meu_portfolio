@@ -33,4 +33,6 @@ Esta página contem os arquivos de código e assets relacionados à criação do
 
 **Client:** HTML, CSS & Javascript.
 
+**APIs:** mailchimp.
+
   

@@ -1685,10 +1685,6 @@ p, label {
 
     }
 
-    .ift-horizontal-align{
-        float: left;
-        margin-top: 5px;
-    }
 
     .ift-slider-container {
         padding-bottom: 90px;
@@ -2051,6 +2047,11 @@ p, label {
 
     .ift-gallery-frame-container {
         top: 40px
+    }
+
+    .ift-horizontal-align{
+        float: left;
+        margin-top: 5px;
     }
 
     /* UTILITÁRIAS */

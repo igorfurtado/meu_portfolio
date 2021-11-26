@@ -604,7 +604,7 @@ p, label {
         height: 280px;
         border: 1px solid;
         background-color: #000;
-        border-image: linear-gradient(to top, #FB8500, #000);
+        border-image: linear-gradient(to bottom, #FB8500, #000);
         border-image-slice: 1;
         text-align: center;
         justify-content: center;

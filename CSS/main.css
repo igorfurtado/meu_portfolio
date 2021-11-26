@@ -8,6 +8,8 @@
 
 p, label {
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @keyframes fadeOut {
@@ -396,6 +398,8 @@ p, label {
         line-height: 60px; /* Line-height da mesma altura que o height = centralização na vertical. */
         color: #fff;
         font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-style: normal;
         text-decoration: none;
     }
 
@@ -715,7 +719,7 @@ p, label {
         font-family: 'Poppins', sans-serif;
         font-size: 120px;
         line-height: 90px;
-        font-weight: 600;
+        font-weight: 700;
     }
 
     .ift-item-navigator {
@@ -757,6 +761,8 @@ p, label {
 
     .ift-items-counter {
         font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-style: normal;
         color: #4D4C4C;
         line-height: 32px;
     }
@@ -1861,6 +1867,7 @@ p, label {
         PT Serif (Regular 400, Regular 400 italic, Bold 700, Bold 700 italic). */
         font-size: 16px;
         font-weight: 400;
+        font-style: normal;
         color: #bcbcbc;
         text-transform: lowercase;
         text-decoration: none;
@@ -2271,7 +2278,7 @@ p, label {
     display: table; /* Display block: se não passar largura, ocupa a largura total do seu container. */
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     /* margin: 0 auto; Centraliza quando utilizado display: block. */
     border: none;
     cursor: pointer;
@@ -2367,12 +2374,13 @@ p, label {
 
 .ift-footer {
     font-family: 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 400;
 }
 
 .ift-footer-text {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
 }
 
@@ -2542,6 +2550,8 @@ p, label {
 .ift-page-list {
     list-style: none;
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .ift-page-list > li {

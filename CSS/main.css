@@ -2200,6 +2200,11 @@ p, label {
         top: 30vh; /* Como a div pai usa view-height (vh), não funciona usar dimensões em % aqui (que está posicionada absolutamente). */
     }
 
+    .ift-horizontal-align-about{
+        float: left;
+        margin-top: 5px;
+    }
+
     /* Utilitárias 1200px */
 
     .ift-tile-large-lh {
